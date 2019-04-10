@@ -13,3 +13,12 @@ function sumOfNumbers(arr, k) {
     }
     return false;
 }
+
+//Problem #2 [Hard]
+// Follow-up: what if you can't use division?
+function multiply(arr) {
+    let output = [];
+    const totalMultiply = arr.reduce((total, current) => total * current);
+    arr = arr.map(item => totalMultiply / item);
+    return arr;
+}
