@@ -1,4 +1,6 @@
-//Problem #1 [Easy]
+//https://projecteuler.net/archives
+
+
 //Bonus: Can you do this in one pass?
 function sumOfNumbers(arr, k) {
     for (let i = 0; i < arr.length; i++) {
@@ -14,7 +16,6 @@ function sumOfNumbers(arr, k) {
     return false;
 }
 
-//Problem #2 [Hard]
 // Follow-up: what if you can't use division?
 function multiply(arr) {
     let output = [];
@@ -23,7 +24,6 @@ function multiply(arr) {
     return arr;
 }
 
-//Problem #4 [Hard]
 function missingInteger(arr) {
     arr = arr.sort();
     for (let i = 0; i < arr.length - 1; i++) {
